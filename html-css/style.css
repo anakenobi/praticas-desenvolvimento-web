@@ -1,0 +1,31 @@
+header{
+    background-color: cornflowerblue;
+}
+
+#section1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(253, 234, 211, 0.37);
+    margin: 5px 10px;
+    border-radius:20px; 
+    padding: 20px;
+}
+
+#section1 h2{
+    color: rgb(255, 0, 225);
+}
+
+#section table {
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+section1 th{
+    border-radius: 10px;
+    background-color: #ddd;
+}
+
+section1 td{
+    border-radius: 10px;
+}
