@@ -13,12 +13,16 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: seagreen;
+    background: url(img.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin: 0;
 }
 
 .wrapper {
     width: 420px;
-    background: purple;
+    background: transparent;
     color: #fff;
     border-radius: 10px;
     padding: 30px 40px;
