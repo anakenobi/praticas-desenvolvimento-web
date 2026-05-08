@@ -22,8 +22,8 @@
     --font-size-n: 1rem;
     --font-size-m: 1.12rem;
     --font-size-l: 1.5rem;
-    --font-size-n: 2rem;
-    --font-size-n: 2.3rem;
+    --font-size-n: 2.0rem;
+    --font-size-xxl: 2.5rem;
 
     /* Font weight */
     --font-weight-normal: 400;
@@ -84,7 +84,7 @@ header .navbar {
 
 .navbar .nav-logo .logo-text {
     color: var(--white-color);
-    font-size: var(--font-size-xl);
+    font-size: var(--font-size-n);
     font-weight: var(--font-weight-semibold);
 }
 
@@ -120,7 +120,7 @@ header .navbar {
 }
 
 .hero-section .hero-details .title {
-    font-size: var(--font-size-xll);
+    font-size: var(--font-size-xxl);
     color: var(--secondary-color);
     font-family: "Miniver", sans-serif;
 }
@@ -137,6 +137,10 @@ header .navbar {
     margin: 24px 0 40px;
     font-size: var(--font-size-m);
 }
+.hero-section .hero-details .buttons{
+    display: flex;
+    gap: 23px;
+}
 
 .hero-section .hero-details .button {
     padding: 10px 26px;
@@ -145,6 +149,19 @@ header .navbar {
     border-radius: var(--border-radius-m);
     background: var(--secondary-color);
     font-weight: var(--font-weight-medium);
+    transition: 0.3s ease;
+}
+
+.hero-section .hero-details .button:hover, .hero-section .hero-details .contact-us {
+    color: var(--white-color);
+    border-color: var(--white-color);
+    background: transparent;
+}
+
+.hero-section .hero-details .contact-us:hover {
+    color: var(--primary-color);
+    border-color: var(--secondary-color);
+    background: var(--secondary-color);
 }
 
 .hero-section .hero-image-wrapper {
